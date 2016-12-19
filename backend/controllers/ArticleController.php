@@ -4,16 +4,13 @@ namespace backend\controllers;
 
 use Yii;
 use backend\models\Article;
-use common\helpers\ArrayHelper;
 use common\helpers\FuncHelper;
-use common\models\Category;
 use backend\models\search\ArticleSearch;
 use yii\web\NotFoundHttpException;
 
 /**
  * 文章控制器
- * 作者 ：longfei
- * Email ：phphome@qq.com
+ * @author longfei <phphome@qq.com>
  */
 class ArticleController extends BaseController
 {
